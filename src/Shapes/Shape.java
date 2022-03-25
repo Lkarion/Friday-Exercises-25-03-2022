@@ -9,13 +9,14 @@ package Shapes;
 //     *
 
 public class Shape {
-    int side;
+    String name;
 
-    public Shape() {
+    public Shape(String name) {
+        this.name = name;
     }
 
     public double getSquare(){
-        return this.side;
+        return 0;
     }
 
     @Override
